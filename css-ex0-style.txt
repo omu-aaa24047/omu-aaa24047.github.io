@@ -23,22 +23,24 @@
 }
 
 .box1 {
-    /* TODO: ここに赤い背景色を設定 */
+    background-color: red;
 }
 
 .box2 {
-    /* TODO: ここに緑の背景色と白文字を設定 */
+    background-color: green;
+    color: white;
 }
 
 .box3 {
-    /* TODO: ここに青い背景色と角丸を設定 */
+    background-color: blue;
+    border-radius: 10px;
 }
 
 /* 課題3: レスポンシブデザイン基礎 */
 .responsive-grid {
-    /* TODO: ここにCSS Gridの設定を追加 */
-    /* ヒント: display: grid を使用 */
-    /* ヒント: grid-template-columns で列を設定 */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .grid-item {
@@ -49,3 +51,8 @@
 
 /* TODO: メディアクエリを追加してレスポンシブ対応 */
 /* ヒント: @media (max-width: 768px) を使用 */
+@media (max-width: 768px) {
+    .responsive-grid {
+        grid-template-columns: 1fr;
+    }
+}
