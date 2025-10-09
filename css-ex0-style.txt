@@ -4,15 +4,15 @@
 }
 
 .colored-text {
-    /* TODO: ここに青色を設定 */
+    color: blue;
 }
 
 .bold-text {
-    /* TODO: ここに太字を設定 */
+    font-weight: bold;
 }
 
 .center-text {
-    /* TODO: ここに中央揃えを設定 */
+    text-align: center;
 }
 
 /* 課題2: ボックスレイアウト */
