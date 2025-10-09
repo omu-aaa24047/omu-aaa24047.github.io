@@ -1,6 +1,6 @@
 /* 課題1: テキストスタイリング */
 .large-text {
-    /* TODO: ここに24pxのフォントサイズを設定 */
+    font-size: 24px;
 }
 
 .colored-text {
